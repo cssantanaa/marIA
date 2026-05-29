@@ -1,0 +1,353 @@
+{
+  "alertas": [
+    {
+      "praia_id": "pajucara",
+      "nome": "Pajuçara",
+      "nivel": "high",
+      "prioridade": 3,
+      "propria_banho": false,
+      "score": 0.6267,
+      "classificacao": "Regular",
+      "emoji": "🟠",
+      "mensagem_publica": "🟠 Qualidade regular. Evite contato prolongado com a água.",
+      "tendencia": "Tendência nos próximos dias: piorando.",
+      "parametros_criticos": [
+        "Coliformes acima do limite (1477 NMP/100mL)",
+        "Turbidez elevada (41.0 NTU)",
+        "Óleo/graxas detectado (0.812 mg/L)"
+      ],
+      "timestamp": "2026-05-26T15:32:59.224872",
+      "canais_acionados": [
+        "dashboard",
+        "push",
+        "email"
+      ]
+    },
+    {
+      "praia_id": "ponta_verde",
+      "nome": "Ponta Verde",
+      "nivel": "high",
+      "prioridade": 3,
+      "propria_banho": false,
+      "score": 0.6206,
+      "classificacao": "Regular",
+      "emoji": "🟠",
+      "mensagem_publica": "🟠 Qualidade regular. Evite contato prolongado com a água.",
+      "tendencia": "Tendência nos próximos dias: piorando.",
+      "parametros_criticos": [
+        "Coliformes acima do limite (975 NMP/100mL)",
+        "Óleo/graxas detectado (0.916 mg/L)"
+      ],
+      "timestamp": "2026-05-26T15:32:59.225872",
+      "canais_acionados": [
+        "dashboard",
+        "push",
+        "email"
+      ]
+    },
+    {
+      "praia_id": "jatiuca",
+      "nome": "Jatiúca",
+      "nivel": "medium",
+      "prioridade": 2,
+      "propria_banho": true,
+      "score": 0.3933,
+      "classificacao": "Boa",
+      "emoji": "🟡",
+      "mensagem_publica": "⚠️  Qualidade boa, mas fique atento às condições.",
+      "tendencia": "Tendência nos próximos dias: piorando.",
+      "parametros_criticos": [],
+      "timestamp": "2026-05-26T15:32:59.225872",
+      "canais_acionados": [
+        "dashboard",
+        "push"
+      ]
+    },
+    {
+      "praia_id": "cruz_das_almas",
+      "nome": "Cruz das Almas",
+      "nivel": "medium",
+      "prioridade": 2,
+      "propria_banho": false,
+      "score": 0.4486,
+      "classificacao": "Boa",
+      "emoji": "🟡",
+      "mensagem_publica": "⚠️  Qualidade boa, mas fique atento às condições.",
+      "tendencia": "Tendência nos próximos dias: piorando.",
+      "parametros_criticos": [
+        "Coliformes acima do limite (1085 NMP/100mL)"
+      ],
+      "timestamp": "2026-05-26T15:32:59.225872",
+      "canais_acionados": [
+        "dashboard",
+        "push"
+      ]
+    },
+    {
+      "praia_id": "sereia",
+      "nome": "Praia da Sereia",
+      "nivel": "medium",
+      "prioridade": 2,
+      "propria_banho": false,
+      "score": 0.3984,
+      "classificacao": "Boa",
+      "emoji": "🟡",
+      "mensagem_publica": "⚠️  Qualidade boa, mas fique atento às condições.",
+      "tendencia": "Tendência nos próximos dias: piorando.",
+      "parametros_criticos": [
+        "Coliformes acima do limite (562 NMP/100mL)",
+        "Esgoto visível na praia ⚠️"
+      ],
+      "timestamp": "2026-05-26T15:32:59.225872",
+      "canais_acionados": [
+        "dashboard",
+        "push"
+      ]
+    }
+  ],
+  "recomendacoes": [
+    {
+      "praia_id": "pajucara",
+      "nome": "Pajuçara",
+      "banhistas": [
+        "Evite banho prolongado, especialmente crianças e idosos.",
+        "Não entre na água após chuvas fortes.",
+        "Lave-se bem com água doce após o banho.",
+        "Pessoas imunossuprimidas devem evitar o banho."
+      ],
+      "orgaos_publicos": [
+        "Intensificar coleta de resíduos em Pajuçara.",
+        "Notificar CASAL sobre possíveis vazamentos de esgoto.",
+        "Instalar faixas de interdição se IP > 0.75."
+      ],
+      "pescadores": [
+        "⚠️  Não consumir peixes ou frutos do mar desta área sem análise.",
+        "Comunicar ao IBAMA e SEAP se observar mortandade de peixes.",
+        "Óleo detectado — evitar pesca na área por 48h."
+      ],
+      "imprensa": "O sistema MarIA registrou Índice de Poluição 0.63 (Regular) na praia Pajuçara em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+    },
+    {
+      "praia_id": "ponta_verde",
+      "nome": "Ponta Verde",
+      "banhistas": [
+        "Evite banho prolongado, especialmente crianças e idosos.",
+        "Não entre na água após chuvas fortes.",
+        "Lave-se bem com água doce após o banho.",
+        "Pessoas imunossuprimidas devem evitar o banho."
+      ],
+      "orgaos_publicos": [
+        "Intensificar coleta de resíduos em Ponta Verde.",
+        "Notificar CASAL sobre possíveis vazamentos de esgoto.",
+        "Instalar faixas de interdição se IP > 0.75."
+      ],
+      "pescadores": [
+        "⚠️  Não consumir peixes ou frutos do mar desta área sem análise.",
+        "Comunicar ao IBAMA e SEAP se observar mortandade de peixes.",
+        "Óleo detectado — evitar pesca na área por 48h."
+      ],
+      "imprensa": "O sistema MarIA registrou Índice de Poluição 0.62 (Regular) na praia Ponta Verde em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+    },
+    {
+      "praia_id": "jatiuca",
+      "nome": "Jatiúca",
+      "banhistas": [
+        "Qualidade aceitável — evite engolir a água.",
+        "Prefira nadar em áreas sinalizadas.",
+        "Observe a cor e o cheiro da água antes de entrar."
+      ],
+      "orgaos_publicos": [
+        "Manter monitoramento padrão."
+      ],
+      "pescadores": [
+        "Condições normais para pesca artesanal."
+      ],
+      "imprensa": "O sistema MarIA registrou Índice de Poluição 0.39 (Boa) na praia Jatiúca em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+    },
+    {
+      "praia_id": "cruz_das_almas",
+      "nome": "Cruz das Almas",
+      "banhistas": [
+        "Qualidade aceitável — evite engolir a água.",
+        "Prefira nadar em áreas sinalizadas.",
+        "Observe a cor e o cheiro da água antes de entrar."
+      ],
+      "orgaos_publicos": [
+        "Manter monitoramento padrão."
+      ],
+      "pescadores": [
+        "⚠️  Não consumir peixes ou frutos do mar desta área sem análise.",
+        "Comunicar ao IBAMA e SEAP se observar mortandade de peixes."
+      ],
+      "imprensa": "O sistema MarIA registrou Índice de Poluição 0.45 (Boa) na praia Cruz das Almas em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+    },
+    {
+      "praia_id": "sereia",
+      "nome": "Praia da Sereia",
+      "banhistas": [
+        "Qualidade aceitável — evite engolir a água.",
+        "Prefira nadar em áreas sinalizadas.",
+        "Observe a cor e o cheiro da água antes de entrar."
+      ],
+      "orgaos_publicos": [
+        "Acionar equipe de campo imediatamente para vistoria.",
+        "Registrar ocorrência no sistema de ouvidoria ambiental."
+      ],
+      "pescadores": [
+        "⚠️  Não consumir peixes ou frutos do mar desta área sem análise.",
+        "Comunicar ao IBAMA e SEAP se observar mortandade de peixes."
+      ],
+      "imprensa": "O sistema MarIA registrou Índice de Poluição 0.40 (Boa) na praia Praia da Sereia em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+    }
+  ],
+  "boletim": {
+    "titulo": "Boletim de Balneabilidade — Maceió/AL — 26/05/2026",
+    "orgao": "MarIA / DEUMACH-FAPEAL",
+    "data": "26/05/2026",
+    "resumo": {
+      "praias_proprias": 1,
+      "praias_improprias": 4,
+      "ip_medio": 0.4975
+    },
+    "praias_em_alerta": [
+      {
+        "praia_id": "pajucara",
+        "nome": "Pajuçara",
+        "nivel": "high",
+        "prioridade": 3,
+        "propria_banho": false,
+        "score": 0.6267,
+        "classificacao": "Regular",
+        "emoji": "🟠",
+        "mensagem_publica": "🟠 Qualidade regular. Evite contato prolongado com a água.",
+        "tendencia": "Tendência nos próximos dias: piorando.",
+        "parametros_criticos": [
+          "Coliformes acima do limite (1477 NMP/100mL)",
+          "Turbidez elevada (41.0 NTU)",
+          "Óleo/graxas detectado (0.812 mg/L)"
+        ],
+        "timestamp": "2026-05-26T15:32:59.224872",
+        "canais_acionados": [
+          "dashboard",
+          "push",
+          "email"
+        ]
+      },
+      {
+        "praia_id": "ponta_verde",
+        "nome": "Ponta Verde",
+        "nivel": "high",
+        "prioridade": 3,
+        "propria_banho": false,
+        "score": 0.6206,
+        "classificacao": "Regular",
+        "emoji": "🟠",
+        "mensagem_publica": "🟠 Qualidade regular. Evite contato prolongado com a água.",
+        "tendencia": "Tendência nos próximos dias: piorando.",
+        "parametros_criticos": [
+          "Coliformes acima do limite (975 NMP/100mL)",
+          "Óleo/graxas detectado (0.916 mg/L)"
+        ],
+        "timestamp": "2026-05-26T15:32:59.225872",
+        "canais_acionados": [
+          "dashboard",
+          "push",
+          "email"
+        ]
+      }
+    ],
+    "ranking": [
+      {
+        "posicao": 1,
+        "praia_id": "jatiuca",
+        "nome": "Jatiúca",
+        "score": 0.3933,
+        "classificacao": "Boa"
+      },
+      {
+        "posicao": 2,
+        "praia_id": "sereia",
+        "nome": "Praia da Sereia",
+        "score": 0.3984,
+        "classificacao": "Boa"
+      },
+      {
+        "posicao": 3,
+        "praia_id": "cruz_das_almas",
+        "nome": "Cruz das Almas",
+        "score": 0.4486,
+        "classificacao": "Boa"
+      },
+      {
+        "posicao": 4,
+        "praia_id": "ponta_verde",
+        "nome": "Ponta Verde",
+        "score": 0.6206,
+        "classificacao": "Regular"
+      },
+      {
+        "posicao": 5,
+        "praia_id": "pajucara",
+        "nome": "Pajuçara",
+        "score": 0.6267,
+        "classificacao": "Regular"
+      }
+    ],
+    "nota_tecnica": "Avaliação baseada no padrão CONAMA 274/2000. Amostras coletadas por sensores IoT e análises laboratoriais. Atualizações às 6h e 14h."
+  },
+  "log": [
+    {
+      "praia": "Pajuçara",
+      "nivel": "high",
+      "canais": [
+        "dashboard",
+        "push",
+        "email"
+      ],
+      "enviado": true,
+      "timestamp": "2026-05-26T15:32:59.225872"
+    },
+    {
+      "praia": "Ponta Verde",
+      "nivel": "high",
+      "canais": [
+        "dashboard",
+        "push",
+        "email"
+      ],
+      "enviado": true,
+      "timestamp": "2026-05-26T15:32:59.225872"
+    },
+    {
+      "praia": "Jatiúca",
+      "nivel": "medium",
+      "canais": [
+        "dashboard",
+        "push"
+      ],
+      "enviado": true,
+      "timestamp": "2026-05-26T15:32:59.225872"
+    },
+    {
+      "praia": "Cruz das Almas",
+      "nivel": "medium",
+      "canais": [
+        "dashboard",
+        "push"
+      ],
+      "enviado": true,
+      "timestamp": "2026-05-26T15:32:59.225872"
+    },
+    {
+      "praia": "Praia da Sereia",
+      "nivel": "medium",
+      "canais": [
+        "dashboard",
+        "push"
+      ],
+      "enviado": true,
+      "timestamp": "2026-05-26T15:32:59.225872"
+    }
+  ],
+  "gerado_em": "2026-05-26T15:32:59.225872"
+}

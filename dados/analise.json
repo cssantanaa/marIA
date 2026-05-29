@@ -1,0 +1,341 @@
+{
+  "analises": {
+    "pajucara": {
+      "praia_id": "pajucara",
+      "nome": "Pajuçara",
+      "timestamp": "2026-05-26T15:32:59.219387",
+      "indice_poluicao": {
+        "score": 0.6267,
+        "classificacao": "Regular",
+        "emoji": "🟠",
+        "nivel": "high"
+      },
+      "conama_274": {
+        "propria_para_banho": false,
+        "coliformes_medidos": 1477.0,
+        "limite_proprio": 250
+      },
+      "sub_indices": {
+        "coliformes": 1.0,
+        "ph": 0.3700000000000001,
+        "turbidez": 0.5125,
+        "oleo": 0.5413333333333333,
+        "residuos": 0.364,
+        "esgoto": 0.0
+      },
+      "parametros_criticos": [
+        "Coliformes acima do limite (1477 NMP/100mL)",
+        "Turbidez elevada (41.0 NTU)",
+        "Óleo/graxas detectado (0.812 mg/L)"
+      ],
+      "dados_brutos": {
+        "agua": {
+          "coliformes_fecais": 1477.0,
+          "ph": 7.13,
+          "turbidez": 41.0,
+          "oleo_graxas": 0.812,
+          "temperatura": 30.5,
+          "salinidade": 32.5,
+          "oxigenio_dissolvido": 6.69
+        },
+        "residuos": {
+          "plasticos_por_100m2": 4.8,
+          "bitucas_por_100m2": 2.5,
+          "vidros_por_100m2": 1.8,
+          "esgoto_visivel": false
+        },
+        "clima": {
+          "temperatura_ar": 24.3,
+          "umidade": 67.7,
+          "vento_kmh": 20.2,
+          "direcao_vento": "NE",
+          "precipitacao_mm": 16.8,
+          "altura_ondas_m": 1.88,
+          "visibilidade_km": 15.5
+        },
+        "ocupacao": {
+          "banhistas_estimados": 1138,
+          "capacidade_maxima": 5000,
+          "percentual": 22.8
+        }
+      }
+    },
+    "ponta_verde": {
+      "praia_id": "ponta_verde",
+      "nome": "Ponta Verde",
+      "timestamp": "2026-05-26T15:32:59.219387",
+      "indice_poluicao": {
+        "score": 0.6206,
+        "classificacao": "Regular",
+        "emoji": "🟠",
+        "nivel": "high"
+      },
+      "conama_274": {
+        "propria_para_banho": false,
+        "coliformes_medidos": 974.9,
+        "limite_proprio": 250
+      },
+      "sub_indices": {
+        "coliformes": 0.9963242786900128,
+        "ph": 0.28000000000000025,
+        "turbidez": 0.1675,
+        "oleo": 0.6106666666666667,
+        "residuos": 0.644,
+        "esgoto": 0.0
+      },
+      "parametros_criticos": [
+        "Coliformes acima do limite (975 NMP/100mL)",
+        "Óleo/graxas detectado (0.916 mg/L)"
+      ],
+      "dados_brutos": {
+        "agua": {
+          "coliformes_fecais": 974.9,
+          "ph": 7.22,
+          "turbidez": 13.4,
+          "oleo_graxas": 0.916,
+          "temperatura": 26.5,
+          "salinidade": 34.3,
+          "oxigenio_dissolvido": 6.44
+        },
+        "residuos": {
+          "plasticos_por_100m2": 8.8,
+          "bitucas_por_100m2": 4.9,
+          "vidros_por_100m2": 2.4,
+          "esgoto_visivel": false
+        },
+        "clima": {
+          "temperatura_ar": 27.4,
+          "umidade": 69.3,
+          "vento_kmh": 6.3,
+          "direcao_vento": "S",
+          "precipitacao_mm": 16.1,
+          "altura_ondas_m": 2.44,
+          "visibilidade_km": 10.7
+        },
+        "ocupacao": {
+          "banhistas_estimados": 2654,
+          "capacidade_maxima": 4000,
+          "percentual": 66.3
+        }
+      }
+    },
+    "jatiuca": {
+      "praia_id": "jatiuca",
+      "nome": "Jatiúca",
+      "timestamp": "2026-05-26T15:32:59.219387",
+      "indice_poluicao": {
+        "score": 0.3933,
+        "classificacao": "Boa",
+        "emoji": "🟡",
+        "nivel": "medium"
+      },
+      "conama_274": {
+        "propria_para_banho": true,
+        "coliformes_medidos": 194.0,
+        "limite_proprio": 250
+      },
+      "sub_indices": {
+        "coliformes": 0.76323443616078,
+        "ph": 0.5800000000000001,
+        "turbidez": 0.17875000000000002,
+        "oleo": 0.08066666666666666,
+        "residuos": 0.16799999999999998,
+        "esgoto": 0.0
+      },
+      "parametros_criticos": [],
+      "dados_brutos": {
+        "agua": {
+          "coliformes_fecais": 194.0,
+          "ph": 6.92,
+          "turbidez": 14.3,
+          "oleo_graxas": 0.121,
+          "temperatura": 27.4,
+          "salinidade": 35.8,
+          "oxigenio_dissolvido": 6.46
+        },
+        "residuos": {
+          "plasticos_por_100m2": 1.7,
+          "bitucas_por_100m2": 1.9,
+          "vidros_por_100m2": 0.6,
+          "esgoto_visivel": false
+        },
+        "clima": {
+          "temperatura_ar": 27.7,
+          "umidade": 67.3,
+          "vento_kmh": 13.0,
+          "direcao_vento": "NE",
+          "precipitacao_mm": 18.3,
+          "altura_ondas_m": 0.68,
+          "visibilidade_km": 15.9
+        },
+        "ocupacao": {
+          "banhistas_estimados": 3886,
+          "capacidade_maxima": 6000,
+          "percentual": 64.8
+        }
+      }
+    },
+    "cruz_das_almas": {
+      "praia_id": "cruz_das_almas",
+      "nome": "Cruz das Almas",
+      "timestamp": "2026-05-26T15:32:59.219387",
+      "indice_poluicao": {
+        "score": 0.4486,
+        "classificacao": "Boa",
+        "emoji": "🟡",
+        "nivel": "medium"
+      },
+      "conama_274": {
+        "propria_para_banho": false,
+        "coliformes_medidos": 1084.8,
+        "limite_proprio": 250
+      },
+      "sub_indices": {
+        "coliformes": 1.0,
+        "ph": 0.45999999999999996,
+        "turbidez": 0.17625,
+        "oleo": 0.026,
+        "residuos": 0.14,
+        "esgoto": 0.0
+      },
+      "parametros_criticos": [
+        "Coliformes acima do limite (1085 NMP/100mL)"
+      ],
+      "dados_brutos": {
+        "agua": {
+          "coliformes_fecais": 1084.8,
+          "ph": 7.96,
+          "turbidez": 14.1,
+          "oleo_graxas": 0.039,
+          "temperatura": 27.6,
+          "salinidade": 33.6,
+          "oxigenio_dissolvido": 5.84
+        },
+        "residuos": {
+          "plasticos_por_100m2": 1.6,
+          "bitucas_por_100m2": 1.5,
+          "vidros_por_100m2": 0.4,
+          "esgoto_visivel": false
+        },
+        "clima": {
+          "temperatura_ar": 33.4,
+          "umidade": 90.7,
+          "vento_kmh": 14.4,
+          "direcao_vento": "S",
+          "precipitacao_mm": 11.9,
+          "altura_ondas_m": 2.31,
+          "visibilidade_km": 11.9
+        },
+        "ocupacao": {
+          "banhistas_estimados": 2454,
+          "capacidade_maxima": 3000,
+          "percentual": 81.8
+        }
+      }
+    },
+    "sereia": {
+      "praia_id": "sereia",
+      "nome": "Praia da Sereia",
+      "timestamp": "2026-05-26T15:32:59.219387",
+      "indice_poluicao": {
+        "score": 0.3984,
+        "classificacao": "Boa",
+        "emoji": "🟡",
+        "nivel": "medium"
+      },
+      "conama_274": {
+        "propria_para_banho": false,
+        "coliformes_medidos": 562.4,
+        "limite_proprio": 250
+      },
+      "sub_indices": {
+        "coliformes": 0.9168062925617521,
+        "ph": 0.05999999999999961,
+        "turbidez": 0.08499999999999999,
+        "oleo": 0.038,
+        "residuos": 0.008,
+        "esgoto": 1.0
+      },
+      "parametros_criticos": [
+        "Coliformes acima do limite (562 NMP/100mL)",
+        "Esgoto visível na praia ⚠️"
+      ],
+      "dados_brutos": {
+        "agua": {
+          "coliformes_fecais": 562.4,
+          "ph": 7.56,
+          "turbidez": 6.8,
+          "oleo_graxas": 0.057,
+          "temperatura": 26.5,
+          "salinidade": 35.8,
+          "oxigenio_dissolvido": 8.17
+        },
+        "residuos": {
+          "plasticos_por_100m2": 0.1,
+          "bitucas_por_100m2": 0.1,
+          "vidros_por_100m2": 0.0,
+          "esgoto_visivel": true
+        },
+        "clima": {
+          "temperatura_ar": 28.2,
+          "umidade": 62.2,
+          "vento_kmh": 16.4,
+          "direcao_vento": "S",
+          "precipitacao_mm": 15.9,
+          "altura_ondas_m": 2.44,
+          "visibilidade_km": 17.9
+        },
+        "ocupacao": {
+          "banhistas_estimados": 1531,
+          "capacidade_maxima": 2500,
+          "percentual": 61.2
+        }
+      }
+    }
+  },
+  "ranking": [
+    {
+      "posicao": 1,
+      "praia_id": "jatiuca",
+      "nome": "Jatiúca",
+      "score": 0.3933,
+      "classificacao": "Boa"
+    },
+    {
+      "posicao": 2,
+      "praia_id": "sereia",
+      "nome": "Praia da Sereia",
+      "score": 0.3984,
+      "classificacao": "Boa"
+    },
+    {
+      "posicao": 3,
+      "praia_id": "cruz_das_almas",
+      "nome": "Cruz das Almas",
+      "score": 0.4486,
+      "classificacao": "Boa"
+    },
+    {
+      "posicao": 4,
+      "praia_id": "ponta_verde",
+      "nome": "Ponta Verde",
+      "score": 0.6206,
+      "classificacao": "Regular"
+    },
+    {
+      "posicao": 5,
+      "praia_id": "pajucara",
+      "nome": "Pajuçara",
+      "score": 0.6267,
+      "classificacao": "Regular"
+    }
+  ],
+  "resumo": {
+    "total_praias": 5,
+    "proprias_para_banho": 1,
+    "improprias": 4,
+    "ip_medio": 0.4975,
+    "ip_pior": 0.6267,
+    "ip_melhor": 0.3933
+  }
+}

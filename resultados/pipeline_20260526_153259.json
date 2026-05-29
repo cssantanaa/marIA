@@ -1,0 +1,1647 @@
+{
+  "status": "sucesso",
+  "versao": "1.0.0",
+  "executado_em": "2026-05-26T15:32:59.226706",
+  "tempo_total_s": 0.007,
+  "etapas": {
+    "coleta": {
+      "status": "ok",
+      "tempo_s": 0.002
+    },
+    "analise": {
+      "status": "ok",
+      "tempo_s": 0.001
+    },
+    "previsao": {
+      "status": "ok",
+      "tempo_s": 0.002
+    },
+    "notificacao": {
+      "status": "ok",
+      "tempo_s": 0.002
+    }
+  },
+  "analise": {
+    "analises": {
+      "pajucara": {
+        "praia_id": "pajucara",
+        "nome": "Pajuçara",
+        "timestamp": "2026-05-26T15:32:59.219387",
+        "indice_poluicao": {
+          "score": 0.6267,
+          "classificacao": "Regular",
+          "emoji": "🟠",
+          "nivel": "high"
+        },
+        "conama_274": {
+          "propria_para_banho": false,
+          "coliformes_medidos": 1477.0,
+          "limite_proprio": 250
+        },
+        "sub_indices": {
+          "coliformes": 1.0,
+          "ph": 0.3700000000000001,
+          "turbidez": 0.5125,
+          "oleo": 0.5413333333333333,
+          "residuos": 0.364,
+          "esgoto": 0.0
+        },
+        "parametros_criticos": [
+          "Coliformes acima do limite (1477 NMP/100mL)",
+          "Turbidez elevada (41.0 NTU)",
+          "Óleo/graxas detectado (0.812 mg/L)"
+        ],
+        "dados_brutos": {
+          "agua": {
+            "coliformes_fecais": 1477.0,
+            "ph": 7.13,
+            "turbidez": 41.0,
+            "oleo_graxas": 0.812,
+            "temperatura": 30.5,
+            "salinidade": 32.5,
+            "oxigenio_dissolvido": 6.69
+          },
+          "residuos": {
+            "plasticos_por_100m2": 4.8,
+            "bitucas_por_100m2": 2.5,
+            "vidros_por_100m2": 1.8,
+            "esgoto_visivel": false
+          },
+          "clima": {
+            "temperatura_ar": 24.3,
+            "umidade": 67.7,
+            "vento_kmh": 20.2,
+            "direcao_vento": "NE",
+            "precipitacao_mm": 16.8,
+            "altura_ondas_m": 1.88,
+            "visibilidade_km": 15.5
+          },
+          "ocupacao": {
+            "banhistas_estimados": 1138,
+            "capacidade_maxima": 5000,
+            "percentual": 22.8
+          }
+        }
+      },
+      "ponta_verde": {
+        "praia_id": "ponta_verde",
+        "nome": "Ponta Verde",
+        "timestamp": "2026-05-26T15:32:59.219387",
+        "indice_poluicao": {
+          "score": 0.6206,
+          "classificacao": "Regular",
+          "emoji": "🟠",
+          "nivel": "high"
+        },
+        "conama_274": {
+          "propria_para_banho": false,
+          "coliformes_medidos": 974.9,
+          "limite_proprio": 250
+        },
+        "sub_indices": {
+          "coliformes": 0.9963242786900128,
+          "ph": 0.28000000000000025,
+          "turbidez": 0.1675,
+          "oleo": 0.6106666666666667,
+          "residuos": 0.644,
+          "esgoto": 0.0
+        },
+        "parametros_criticos": [
+          "Coliformes acima do limite (975 NMP/100mL)",
+          "Óleo/graxas detectado (0.916 mg/L)"
+        ],
+        "dados_brutos": {
+          "agua": {
+            "coliformes_fecais": 974.9,
+            "ph": 7.22,
+            "turbidez": 13.4,
+            "oleo_graxas": 0.916,
+            "temperatura": 26.5,
+            "salinidade": 34.3,
+            "oxigenio_dissolvido": 6.44
+          },
+          "residuos": {
+            "plasticos_por_100m2": 8.8,
+            "bitucas_por_100m2": 4.9,
+            "vidros_por_100m2": 2.4,
+            "esgoto_visivel": false
+          },
+          "clima": {
+            "temperatura_ar": 27.4,
+            "umidade": 69.3,
+            "vento_kmh": 6.3,
+            "direcao_vento": "S",
+            "precipitacao_mm": 16.1,
+            "altura_ondas_m": 2.44,
+            "visibilidade_km": 10.7
+          },
+          "ocupacao": {
+            "banhistas_estimados": 2654,
+            "capacidade_maxima": 4000,
+            "percentual": 66.3
+          }
+        }
+      },
+      "jatiuca": {
+        "praia_id": "jatiuca",
+        "nome": "Jatiúca",
+        "timestamp": "2026-05-26T15:32:59.219387",
+        "indice_poluicao": {
+          "score": 0.3933,
+          "classificacao": "Boa",
+          "emoji": "🟡",
+          "nivel": "medium"
+        },
+        "conama_274": {
+          "propria_para_banho": true,
+          "coliformes_medidos": 194.0,
+          "limite_proprio": 250
+        },
+        "sub_indices": {
+          "coliformes": 0.76323443616078,
+          "ph": 0.5800000000000001,
+          "turbidez": 0.17875000000000002,
+          "oleo": 0.08066666666666666,
+          "residuos": 0.16799999999999998,
+          "esgoto": 0.0
+        },
+        "parametros_criticos": [],
+        "dados_brutos": {
+          "agua": {
+            "coliformes_fecais": 194.0,
+            "ph": 6.92,
+            "turbidez": 14.3,
+            "oleo_graxas": 0.121,
+            "temperatura": 27.4,
+            "salinidade": 35.8,
+            "oxigenio_dissolvido": 6.46
+          },
+          "residuos": {
+            "plasticos_por_100m2": 1.7,
+            "bitucas_por_100m2": 1.9,
+            "vidros_por_100m2": 0.6,
+            "esgoto_visivel": false
+          },
+          "clima": {
+            "temperatura_ar": 27.7,
+            "umidade": 67.3,
+            "vento_kmh": 13.0,
+            "direcao_vento": "NE",
+            "precipitacao_mm": 18.3,
+            "altura_ondas_m": 0.68,
+            "visibilidade_km": 15.9
+          },
+          "ocupacao": {
+            "banhistas_estimados": 3886,
+            "capacidade_maxima": 6000,
+            "percentual": 64.8
+          }
+        }
+      },
+      "cruz_das_almas": {
+        "praia_id": "cruz_das_almas",
+        "nome": "Cruz das Almas",
+        "timestamp": "2026-05-26T15:32:59.219387",
+        "indice_poluicao": {
+          "score": 0.4486,
+          "classificacao": "Boa",
+          "emoji": "🟡",
+          "nivel": "medium"
+        },
+        "conama_274": {
+          "propria_para_banho": false,
+          "coliformes_medidos": 1084.8,
+          "limite_proprio": 250
+        },
+        "sub_indices": {
+          "coliformes": 1.0,
+          "ph": 0.45999999999999996,
+          "turbidez": 0.17625,
+          "oleo": 0.026,
+          "residuos": 0.14,
+          "esgoto": 0.0
+        },
+        "parametros_criticos": [
+          "Coliformes acima do limite (1085 NMP/100mL)"
+        ],
+        "dados_brutos": {
+          "agua": {
+            "coliformes_fecais": 1084.8,
+            "ph": 7.96,
+            "turbidez": 14.1,
+            "oleo_graxas": 0.039,
+            "temperatura": 27.6,
+            "salinidade": 33.6,
+            "oxigenio_dissolvido": 5.84
+          },
+          "residuos": {
+            "plasticos_por_100m2": 1.6,
+            "bitucas_por_100m2": 1.5,
+            "vidros_por_100m2": 0.4,
+            "esgoto_visivel": false
+          },
+          "clima": {
+            "temperatura_ar": 33.4,
+            "umidade": 90.7,
+            "vento_kmh": 14.4,
+            "direcao_vento": "S",
+            "precipitacao_mm": 11.9,
+            "altura_ondas_m": 2.31,
+            "visibilidade_km": 11.9
+          },
+          "ocupacao": {
+            "banhistas_estimados": 2454,
+            "capacidade_maxima": 3000,
+            "percentual": 81.8
+          }
+        }
+      },
+      "sereia": {
+        "praia_id": "sereia",
+        "nome": "Praia da Sereia",
+        "timestamp": "2026-05-26T15:32:59.219387",
+        "indice_poluicao": {
+          "score": 0.3984,
+          "classificacao": "Boa",
+          "emoji": "🟡",
+          "nivel": "medium"
+        },
+        "conama_274": {
+          "propria_para_banho": false,
+          "coliformes_medidos": 562.4,
+          "limite_proprio": 250
+        },
+        "sub_indices": {
+          "coliformes": 0.9168062925617521,
+          "ph": 0.05999999999999961,
+          "turbidez": 0.08499999999999999,
+          "oleo": 0.038,
+          "residuos": 0.008,
+          "esgoto": 1.0
+        },
+        "parametros_criticos": [
+          "Coliformes acima do limite (562 NMP/100mL)",
+          "Esgoto visível na praia ⚠️"
+        ],
+        "dados_brutos": {
+          "agua": {
+            "coliformes_fecais": 562.4,
+            "ph": 7.56,
+            "turbidez": 6.8,
+            "oleo_graxas": 0.057,
+            "temperatura": 26.5,
+            "salinidade": 35.8,
+            "oxigenio_dissolvido": 8.17
+          },
+          "residuos": {
+            "plasticos_por_100m2": 0.1,
+            "bitucas_por_100m2": 0.1,
+            "vidros_por_100m2": 0.0,
+            "esgoto_visivel": true
+          },
+          "clima": {
+            "temperatura_ar": 28.2,
+            "umidade": 62.2,
+            "vento_kmh": 16.4,
+            "direcao_vento": "S",
+            "precipitacao_mm": 15.9,
+            "altura_ondas_m": 2.44,
+            "visibilidade_km": 17.9
+          },
+          "ocupacao": {
+            "banhistas_estimados": 1531,
+            "capacidade_maxima": 2500,
+            "percentual": 61.2
+          }
+        }
+      }
+    },
+    "ranking": [
+      {
+        "posicao": 1,
+        "praia_id": "jatiuca",
+        "nome": "Jatiúca",
+        "score": 0.3933,
+        "classificacao": "Boa"
+      },
+      {
+        "posicao": 2,
+        "praia_id": "sereia",
+        "nome": "Praia da Sereia",
+        "score": 0.3984,
+        "classificacao": "Boa"
+      },
+      {
+        "posicao": 3,
+        "praia_id": "cruz_das_almas",
+        "nome": "Cruz das Almas",
+        "score": 0.4486,
+        "classificacao": "Boa"
+      },
+      {
+        "posicao": 4,
+        "praia_id": "ponta_verde",
+        "nome": "Ponta Verde",
+        "score": 0.6206,
+        "classificacao": "Regular"
+      },
+      {
+        "posicao": 5,
+        "praia_id": "pajucara",
+        "nome": "Pajuçara",
+        "score": 0.6267,
+        "classificacao": "Regular"
+      }
+    ],
+    "resumo": {
+      "total_praias": 5,
+      "proprias_para_banho": 1,
+      "improprias": 4,
+      "ip_medio": 0.4975,
+      "ip_pior": 0.6267,
+      "ip_melhor": 0.3933
+    }
+  },
+  "previsao": {
+    "previsoes": {
+      "pajucara": {
+        "praia_id": "pajucara",
+        "nome": "Pajuçara",
+        "score_atual": 0.6267,
+        "previsao": [
+          {
+            "dia": 1,
+            "data": "2026-05-27",
+            "dia_semana": "Qua",
+            "score": 0.7287,
+            "ic_95_min": 0.6707,
+            "ic_95_max": 0.7867,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.05,
+              "vento": 0.97,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 2,
+            "data": "2026-05-28",
+            "dia_semana": "Qui",
+            "score": 0.7626,
+            "ic_95_min": 0.6966,
+            "ic_95_max": 0.8286,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.05,
+              "vento": 0.97,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 3,
+            "data": "2026-05-29",
+            "dia_semana": "Sex",
+            "score": 0.7917,
+            "ic_95_min": 0.7177,
+            "ic_95_max": 0.8657,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.05,
+              "vento": 0.97,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 4,
+            "data": "2026-05-30",
+            "dia_semana": "Sáb",
+            "score": 0.8916,
+            "ic_95_min": 0.8096,
+            "ic_95_max": 0.9736,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.05,
+              "vento": 0.97,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 5,
+            "data": "2026-05-31",
+            "dia_semana": "Dom",
+            "score": 1.0,
+            "ic_95_min": 0.91,
+            "ic_95_max": 1.0,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.05,
+              "vento": 0.97,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 6,
+            "data": "2026-06-01",
+            "dia_semana": "Seg",
+            "score": 1.0,
+            "ic_95_min": 0.902,
+            "ic_95_max": 1.0,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.05,
+              "vento": 0.97,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 7,
+            "data": "2026-06-02",
+            "dia_semana": "Ter",
+            "score": 0.982,
+            "ic_95_min": 0.876,
+            "ic_95_max": 1.0,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.05,
+              "vento": 0.97,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          }
+        ],
+        "tendencia": {
+          "direcao": "piorando",
+          "delta_7dias": 0.3092,
+          "slope_diario": 0.05154
+        },
+        "pior_dia": {
+          "dia": 5,
+          "data": "2026-05-31",
+          "dia_semana": "Dom",
+          "score": 1.0,
+          "ic_95_min": 0.91,
+          "ic_95_max": 1.0,
+          "classificacao": "Crítica",
+          "emoji": "🔴",
+          "nivel": "critical",
+          "fatores": {
+            "chuva": 1.05,
+            "vento": 0.97,
+            "fim_semana": true,
+            "mes_chuvoso": true
+          }
+        },
+        "melhor_dia": {
+          "dia": 1,
+          "data": "2026-05-27",
+          "dia_semana": "Qua",
+          "score": 0.7287,
+          "ic_95_min": 0.6707,
+          "ic_95_max": 0.7867,
+          "classificacao": "Regular",
+          "emoji": "🟠",
+          "nivel": "high",
+          "fatores": {
+            "chuva": 1.05,
+            "vento": 0.97,
+            "fim_semana": false,
+            "mes_chuvoso": true
+          }
+        },
+        "recomendacao_melhor_dia": "2026-05-27"
+      },
+      "ponta_verde": {
+        "praia_id": "ponta_verde",
+        "nome": "Ponta Verde",
+        "score_atual": 0.6206,
+        "previsao": [
+          {
+            "dia": 1,
+            "data": "2026-05-27",
+            "dia_semana": "Qua",
+            "score": 0.6268,
+            "ic_95_min": 0.5688,
+            "ic_95_max": 0.6848,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.991,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 2,
+            "data": "2026-05-28",
+            "dia_semana": "Qui",
+            "score": 0.6485,
+            "ic_95_min": 0.5825,
+            "ic_95_max": 0.7145,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.991,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 3,
+            "data": "2026-05-29",
+            "dia_semana": "Sex",
+            "score": 0.713,
+            "ic_95_min": 0.639,
+            "ic_95_max": 0.787,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.991,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 4,
+            "data": "2026-05-30",
+            "dia_semana": "Sáb",
+            "score": 0.8422,
+            "ic_95_min": 0.7602,
+            "ic_95_max": 0.9242,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.991,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 5,
+            "data": "2026-05-31",
+            "dia_semana": "Dom",
+            "score": 1.0,
+            "ic_95_min": 0.91,
+            "ic_95_max": 1.0,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.991,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 6,
+            "data": "2026-06-01",
+            "dia_semana": "Seg",
+            "score": 1.0,
+            "ic_95_min": 0.902,
+            "ic_95_max": 1.0,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.991,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 7,
+            "data": "2026-06-02",
+            "dia_semana": "Ter",
+            "score": 0.9922,
+            "ic_95_min": 0.8862,
+            "ic_95_max": 1.0,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.991,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          }
+        ],
+        "tendencia": {
+          "direcao": "piorando",
+          "delta_7dias": 0.447,
+          "slope_diario": 0.07451
+        },
+        "pior_dia": {
+          "dia": 5,
+          "data": "2026-05-31",
+          "dia_semana": "Dom",
+          "score": 1.0,
+          "ic_95_min": 0.91,
+          "ic_95_max": 1.0,
+          "classificacao": "Crítica",
+          "emoji": "🔴",
+          "nivel": "critical",
+          "fatores": {
+            "chuva": 1.048,
+            "vento": 0.991,
+            "fim_semana": true,
+            "mes_chuvoso": true
+          }
+        },
+        "melhor_dia": {
+          "dia": 1,
+          "data": "2026-05-27",
+          "dia_semana": "Qua",
+          "score": 0.6268,
+          "ic_95_min": 0.5688,
+          "ic_95_max": 0.6848,
+          "classificacao": "Regular",
+          "emoji": "🟠",
+          "nivel": "high",
+          "fatores": {
+            "chuva": 1.048,
+            "vento": 0.991,
+            "fim_semana": false,
+            "mes_chuvoso": true
+          }
+        },
+        "recomendacao_melhor_dia": "2026-05-27"
+      },
+      "jatiuca": {
+        "praia_id": "jatiuca",
+        "nome": "Jatiúca",
+        "score_atual": 0.3933,
+        "previsao": [
+          {
+            "dia": 1,
+            "data": "2026-05-27",
+            "dia_semana": "Qua",
+            "score": 0.4193,
+            "ic_95_min": 0.3613,
+            "ic_95_max": 0.4773,
+            "classificacao": "Boa",
+            "emoji": "🟡",
+            "nivel": "medium",
+            "fatores": {
+              "chuva": 1.055,
+              "vento": 0.981,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 2,
+            "data": "2026-05-28",
+            "dia_semana": "Qui",
+            "score": 0.4582,
+            "ic_95_min": 0.3922,
+            "ic_95_max": 0.5242,
+            "classificacao": "Boa",
+            "emoji": "🟡",
+            "nivel": "medium",
+            "fatores": {
+              "chuva": 1.055,
+              "vento": 0.981,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 3,
+            "data": "2026-05-29",
+            "dia_semana": "Sex",
+            "score": 0.4655,
+            "ic_95_min": 0.3915,
+            "ic_95_max": 0.5395,
+            "classificacao": "Boa",
+            "emoji": "🟡",
+            "nivel": "medium",
+            "fatores": {
+              "chuva": 1.055,
+              "vento": 0.981,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 4,
+            "data": "2026-05-30",
+            "dia_semana": "Sáb",
+            "score": 0.6031,
+            "ic_95_min": 0.5211,
+            "ic_95_max": 0.6851,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.055,
+              "vento": 0.981,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 5,
+            "data": "2026-05-31",
+            "dia_semana": "Dom",
+            "score": 0.7355,
+            "ic_95_min": 0.6455,
+            "ic_95_max": 0.8255,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.055,
+              "vento": 0.981,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 6,
+            "data": "2026-06-01",
+            "dia_semana": "Seg",
+            "score": 0.8013,
+            "ic_95_min": 0.7033,
+            "ic_95_max": 0.8993,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.055,
+              "vento": 0.981,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 7,
+            "data": "2026-06-02",
+            "dia_semana": "Ter",
+            "score": 0.8444,
+            "ic_95_min": 0.7384,
+            "ic_95_max": 0.9504,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.055,
+              "vento": 0.981,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          }
+        ],
+        "tendencia": {
+          "direcao": "piorando",
+          "delta_7dias": 0.4782,
+          "slope_diario": 0.0797
+        },
+        "pior_dia": {
+          "dia": 7,
+          "data": "2026-06-02",
+          "dia_semana": "Ter",
+          "score": 0.8444,
+          "ic_95_min": 0.7384,
+          "ic_95_max": 0.9504,
+          "classificacao": "Crítica",
+          "emoji": "🔴",
+          "nivel": "critical",
+          "fatores": {
+            "chuva": 1.055,
+            "vento": 0.981,
+            "fim_semana": false,
+            "mes_chuvoso": true
+          }
+        },
+        "melhor_dia": {
+          "dia": 1,
+          "data": "2026-05-27",
+          "dia_semana": "Qua",
+          "score": 0.4193,
+          "ic_95_min": 0.3613,
+          "ic_95_max": 0.4773,
+          "classificacao": "Boa",
+          "emoji": "🟡",
+          "nivel": "medium",
+          "fatores": {
+            "chuva": 1.055,
+            "vento": 0.981,
+            "fim_semana": false,
+            "mes_chuvoso": true
+          }
+        },
+        "recomendacao_melhor_dia": "2026-05-27"
+      },
+      "cruz_das_almas": {
+        "praia_id": "cruz_das_almas",
+        "nome": "Cruz das Almas",
+        "score_atual": 0.4486,
+        "previsao": [
+          {
+            "dia": 1,
+            "data": "2026-05-27",
+            "dia_semana": "Qua",
+            "score": 0.5179,
+            "ic_95_min": 0.4599,
+            "ic_95_max": 0.5759,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.036,
+              "vento": 0.978,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 2,
+            "data": "2026-05-28",
+            "dia_semana": "Qui",
+            "score": 0.5361,
+            "ic_95_min": 0.4701,
+            "ic_95_max": 0.6021,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.036,
+              "vento": 0.978,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 3,
+            "data": "2026-05-29",
+            "dia_semana": "Sex",
+            "score": 0.581,
+            "ic_95_min": 0.507,
+            "ic_95_max": 0.655,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.036,
+              "vento": 0.978,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 4,
+            "data": "2026-05-30",
+            "dia_semana": "Sáb",
+            "score": 0.6675,
+            "ic_95_min": 0.5855,
+            "ic_95_max": 0.7495,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.036,
+              "vento": 0.978,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 5,
+            "data": "2026-05-31",
+            "dia_semana": "Dom",
+            "score": 0.7956,
+            "ic_95_min": 0.7056,
+            "ic_95_max": 0.8856,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.036,
+              "vento": 0.978,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 6,
+            "data": "2026-06-01",
+            "dia_semana": "Seg",
+            "score": 0.8026,
+            "ic_95_min": 0.7046,
+            "ic_95_max": 0.9006,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.036,
+              "vento": 0.978,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 7,
+            "data": "2026-06-02",
+            "dia_semana": "Ter",
+            "score": 0.8447,
+            "ic_95_min": 0.7387,
+            "ic_95_max": 0.9507,
+            "classificacao": "Crítica",
+            "emoji": "🔴",
+            "nivel": "critical",
+            "fatores": {
+              "chuva": 1.036,
+              "vento": 0.978,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          }
+        ],
+        "tendencia": {
+          "direcao": "piorando",
+          "delta_7dias": 0.3703,
+          "slope_diario": 0.06171
+        },
+        "pior_dia": {
+          "dia": 7,
+          "data": "2026-06-02",
+          "dia_semana": "Ter",
+          "score": 0.8447,
+          "ic_95_min": 0.7387,
+          "ic_95_max": 0.9507,
+          "classificacao": "Crítica",
+          "emoji": "🔴",
+          "nivel": "critical",
+          "fatores": {
+            "chuva": 1.036,
+            "vento": 0.978,
+            "fim_semana": false,
+            "mes_chuvoso": true
+          }
+        },
+        "melhor_dia": {
+          "dia": 1,
+          "data": "2026-05-27",
+          "dia_semana": "Qua",
+          "score": 0.5179,
+          "ic_95_min": 0.4599,
+          "ic_95_max": 0.5759,
+          "classificacao": "Regular",
+          "emoji": "🟠",
+          "nivel": "high",
+          "fatores": {
+            "chuva": 1.036,
+            "vento": 0.978,
+            "fim_semana": false,
+            "mes_chuvoso": true
+          }
+        },
+        "recomendacao_melhor_dia": "2026-05-27"
+      },
+      "sereia": {
+        "praia_id": "sereia",
+        "nome": "Praia da Sereia",
+        "score_atual": 0.3984,
+        "previsao": [
+          {
+            "dia": 1,
+            "data": "2026-05-27",
+            "dia_semana": "Qua",
+            "score": 0.3712,
+            "ic_95_min": 0.3132,
+            "ic_95_max": 0.4292,
+            "classificacao": "Boa",
+            "emoji": "🟡",
+            "nivel": "medium",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.975,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 2,
+            "data": "2026-05-28",
+            "dia_semana": "Qui",
+            "score": 0.4107,
+            "ic_95_min": 0.3447,
+            "ic_95_max": 0.4767,
+            "classificacao": "Boa",
+            "emoji": "🟡",
+            "nivel": "medium",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.975,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 3,
+            "data": "2026-05-29",
+            "dia_semana": "Sex",
+            "score": 0.4404,
+            "ic_95_min": 0.3664,
+            "ic_95_max": 0.5144,
+            "classificacao": "Boa",
+            "emoji": "🟡",
+            "nivel": "medium",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.975,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 4,
+            "data": "2026-05-30",
+            "dia_semana": "Sáb",
+            "score": 0.5781,
+            "ic_95_min": 0.4961,
+            "ic_95_max": 0.6601,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.975,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 5,
+            "data": "2026-05-31",
+            "dia_semana": "Dom",
+            "score": 0.7185,
+            "ic_95_min": 0.6285,
+            "ic_95_max": 0.8085,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.975,
+              "fim_semana": true,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 6,
+            "data": "2026-06-01",
+            "dia_semana": "Seg",
+            "score": 0.7275,
+            "ic_95_min": 0.6295,
+            "ic_95_max": 0.8255,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.975,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          },
+          {
+            "dia": 7,
+            "data": "2026-06-02",
+            "dia_semana": "Ter",
+            "score": 0.7217,
+            "ic_95_min": 0.6157,
+            "ic_95_max": 0.8277,
+            "classificacao": "Regular",
+            "emoji": "🟠",
+            "nivel": "high",
+            "fatores": {
+              "chuva": 1.048,
+              "vento": 0.975,
+              "fim_semana": false,
+              "mes_chuvoso": true
+            }
+          }
+        ],
+        "tendencia": {
+          "direcao": "piorando",
+          "delta_7dias": 0.4207,
+          "slope_diario": 0.07011
+        },
+        "pior_dia": {
+          "dia": 6,
+          "data": "2026-06-01",
+          "dia_semana": "Seg",
+          "score": 0.7275,
+          "ic_95_min": 0.6295,
+          "ic_95_max": 0.8255,
+          "classificacao": "Regular",
+          "emoji": "🟠",
+          "nivel": "high",
+          "fatores": {
+            "chuva": 1.048,
+            "vento": 0.975,
+            "fim_semana": false,
+            "mes_chuvoso": true
+          }
+        },
+        "melhor_dia": {
+          "dia": 1,
+          "data": "2026-05-27",
+          "dia_semana": "Qua",
+          "score": 0.3712,
+          "ic_95_min": 0.3132,
+          "ic_95_max": 0.4292,
+          "classificacao": "Boa",
+          "emoji": "🟡",
+          "nivel": "medium",
+          "fatores": {
+            "chuva": 1.048,
+            "vento": 0.975,
+            "fim_semana": false,
+            "mes_chuvoso": true
+          }
+        },
+        "recomendacao_melhor_dia": "2026-05-27"
+      }
+    },
+    "horizonte_dias": 7,
+    "modelo": "ARIMA-Sazonal-Simplificado v1.0",
+    "gerado_em": "2026-05-26T15:32:59.223871",
+    "alertas_futuros": [
+      {
+        "praia": "Ponta Verde",
+        "data": "2026-06-02",
+        "score": 0.9922,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Pajuçara",
+        "data": "2026-06-02",
+        "score": 0.982,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Cruz das Almas",
+        "data": "2026-06-02",
+        "score": 0.8447,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Jatiúca",
+        "data": "2026-06-02",
+        "score": 0.8444,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Pajuçara",
+        "data": "2026-06-01",
+        "score": 1.0,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Ponta Verde",
+        "data": "2026-06-01",
+        "score": 1.0,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Cruz das Almas",
+        "data": "2026-06-01",
+        "score": 0.8026,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Jatiúca",
+        "data": "2026-06-01",
+        "score": 0.8013,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Pajuçara",
+        "data": "2026-05-31",
+        "score": 1.0,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Ponta Verde",
+        "data": "2026-05-31",
+        "score": 1.0,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Cruz das Almas",
+        "data": "2026-05-31",
+        "score": 0.7956,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Pajuçara",
+        "data": "2026-05-30",
+        "score": 0.8916,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Ponta Verde",
+        "data": "2026-05-30",
+        "score": 0.8422,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Pajuçara",
+        "data": "2026-05-29",
+        "score": 0.7917,
+        "emoji": "🔴"
+      },
+      {
+        "praia": "Pajuçara",
+        "data": "2026-05-28",
+        "score": 0.7626,
+        "emoji": "🔴"
+      }
+    ]
+  },
+  "notificacoes": {
+    "alertas": [
+      {
+        "praia_id": "pajucara",
+        "nome": "Pajuçara",
+        "nivel": "high",
+        "prioridade": 3,
+        "propria_banho": false,
+        "score": 0.6267,
+        "classificacao": "Regular",
+        "emoji": "🟠",
+        "mensagem_publica": "🟠 Qualidade regular. Evite contato prolongado com a água.",
+        "tendencia": "Tendência nos próximos dias: piorando.",
+        "parametros_criticos": [
+          "Coliformes acima do limite (1477 NMP/100mL)",
+          "Turbidez elevada (41.0 NTU)",
+          "Óleo/graxas detectado (0.812 mg/L)"
+        ],
+        "timestamp": "2026-05-26T15:32:59.224872",
+        "canais_acionados": [
+          "dashboard",
+          "push",
+          "email"
+        ]
+      },
+      {
+        "praia_id": "ponta_verde",
+        "nome": "Ponta Verde",
+        "nivel": "high",
+        "prioridade": 3,
+        "propria_banho": false,
+        "score": 0.6206,
+        "classificacao": "Regular",
+        "emoji": "🟠",
+        "mensagem_publica": "🟠 Qualidade regular. Evite contato prolongado com a água.",
+        "tendencia": "Tendência nos próximos dias: piorando.",
+        "parametros_criticos": [
+          "Coliformes acima do limite (975 NMP/100mL)",
+          "Óleo/graxas detectado (0.916 mg/L)"
+        ],
+        "timestamp": "2026-05-26T15:32:59.225872",
+        "canais_acionados": [
+          "dashboard",
+          "push",
+          "email"
+        ]
+      },
+      {
+        "praia_id": "jatiuca",
+        "nome": "Jatiúca",
+        "nivel": "medium",
+        "prioridade": 2,
+        "propria_banho": true,
+        "score": 0.3933,
+        "classificacao": "Boa",
+        "emoji": "🟡",
+        "mensagem_publica": "⚠️  Qualidade boa, mas fique atento às condições.",
+        "tendencia": "Tendência nos próximos dias: piorando.",
+        "parametros_criticos": [],
+        "timestamp": "2026-05-26T15:32:59.225872",
+        "canais_acionados": [
+          "dashboard",
+          "push"
+        ]
+      },
+      {
+        "praia_id": "cruz_das_almas",
+        "nome": "Cruz das Almas",
+        "nivel": "medium",
+        "prioridade": 2,
+        "propria_banho": false,
+        "score": 0.4486,
+        "classificacao": "Boa",
+        "emoji": "🟡",
+        "mensagem_publica": "⚠️  Qualidade boa, mas fique atento às condições.",
+        "tendencia": "Tendência nos próximos dias: piorando.",
+        "parametros_criticos": [
+          "Coliformes acima do limite (1085 NMP/100mL)"
+        ],
+        "timestamp": "2026-05-26T15:32:59.225872",
+        "canais_acionados": [
+          "dashboard",
+          "push"
+        ]
+      },
+      {
+        "praia_id": "sereia",
+        "nome": "Praia da Sereia",
+        "nivel": "medium",
+        "prioridade": 2,
+        "propria_banho": false,
+        "score": 0.3984,
+        "classificacao": "Boa",
+        "emoji": "🟡",
+        "mensagem_publica": "⚠️  Qualidade boa, mas fique atento às condições.",
+        "tendencia": "Tendência nos próximos dias: piorando.",
+        "parametros_criticos": [
+          "Coliformes acima do limite (562 NMP/100mL)",
+          "Esgoto visível na praia ⚠️"
+        ],
+        "timestamp": "2026-05-26T15:32:59.225872",
+        "canais_acionados": [
+          "dashboard",
+          "push"
+        ]
+      }
+    ],
+    "recomendacoes": [
+      {
+        "praia_id": "pajucara",
+        "nome": "Pajuçara",
+        "banhistas": [
+          "Evite banho prolongado, especialmente crianças e idosos.",
+          "Não entre na água após chuvas fortes.",
+          "Lave-se bem com água doce após o banho.",
+          "Pessoas imunossuprimidas devem evitar o banho."
+        ],
+        "orgaos_publicos": [
+          "Intensificar coleta de resíduos em Pajuçara.",
+          "Notificar CASAL sobre possíveis vazamentos de esgoto.",
+          "Instalar faixas de interdição se IP > 0.75."
+        ],
+        "pescadores": [
+          "⚠️  Não consumir peixes ou frutos do mar desta área sem análise.",
+          "Comunicar ao IBAMA e SEAP se observar mortandade de peixes.",
+          "Óleo detectado — evitar pesca na área por 48h."
+        ],
+        "imprensa": "O sistema MarIA registrou Índice de Poluição 0.63 (Regular) na praia Pajuçara em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+      },
+      {
+        "praia_id": "ponta_verde",
+        "nome": "Ponta Verde",
+        "banhistas": [
+          "Evite banho prolongado, especialmente crianças e idosos.",
+          "Não entre na água após chuvas fortes.",
+          "Lave-se bem com água doce após o banho.",
+          "Pessoas imunossuprimidas devem evitar o banho."
+        ],
+        "orgaos_publicos": [
+          "Intensificar coleta de resíduos em Ponta Verde.",
+          "Notificar CASAL sobre possíveis vazamentos de esgoto.",
+          "Instalar faixas de interdição se IP > 0.75."
+        ],
+        "pescadores": [
+          "⚠️  Não consumir peixes ou frutos do mar desta área sem análise.",
+          "Comunicar ao IBAMA e SEAP se observar mortandade de peixes.",
+          "Óleo detectado — evitar pesca na área por 48h."
+        ],
+        "imprensa": "O sistema MarIA registrou Índice de Poluição 0.62 (Regular) na praia Ponta Verde em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+      },
+      {
+        "praia_id": "jatiuca",
+        "nome": "Jatiúca",
+        "banhistas": [
+          "Qualidade aceitável — evite engolir a água.",
+          "Prefira nadar em áreas sinalizadas.",
+          "Observe a cor e o cheiro da água antes de entrar."
+        ],
+        "orgaos_publicos": [
+          "Manter monitoramento padrão."
+        ],
+        "pescadores": [
+          "Condições normais para pesca artesanal."
+        ],
+        "imprensa": "O sistema MarIA registrou Índice de Poluição 0.39 (Boa) na praia Jatiúca em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+      },
+      {
+        "praia_id": "cruz_das_almas",
+        "nome": "Cruz das Almas",
+        "banhistas": [
+          "Qualidade aceitável — evite engolir a água.",
+          "Prefira nadar em áreas sinalizadas.",
+          "Observe a cor e o cheiro da água antes de entrar."
+        ],
+        "orgaos_publicos": [
+          "Manter monitoramento padrão."
+        ],
+        "pescadores": [
+          "⚠️  Não consumir peixes ou frutos do mar desta área sem análise.",
+          "Comunicar ao IBAMA e SEAP se observar mortandade de peixes."
+        ],
+        "imprensa": "O sistema MarIA registrou Índice de Poluição 0.45 (Boa) na praia Cruz das Almas em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+      },
+      {
+        "praia_id": "sereia",
+        "nome": "Praia da Sereia",
+        "banhistas": [
+          "Qualidade aceitável — evite engolir a água.",
+          "Prefira nadar em áreas sinalizadas.",
+          "Observe a cor e o cheiro da água antes de entrar."
+        ],
+        "orgaos_publicos": [
+          "Acionar equipe de campo imediatamente para vistoria.",
+          "Registrar ocorrência no sistema de ouvidoria ambiental."
+        ],
+        "pescadores": [
+          "⚠️  Não consumir peixes ou frutos do mar desta área sem análise.",
+          "Comunicar ao IBAMA e SEAP se observar mortandade de peixes."
+        ],
+        "imprensa": "O sistema MarIA registrou Índice de Poluição 0.40 (Boa) na praia Praia da Sereia em 26/05/2026. A tendência para os próximos 7 dias é de piorando."
+      }
+    ],
+    "boletim": {
+      "titulo": "Boletim de Balneabilidade — Maceió/AL — 26/05/2026",
+      "orgao": "MarIA / DEUMACH-FAPEAL",
+      "data": "26/05/2026",
+      "resumo": {
+        "praias_proprias": 1,
+        "praias_improprias": 4,
+        "ip_medio": 0.4975
+      },
+      "praias_em_alerta": [
+        {
+          "praia_id": "pajucara",
+          "nome": "Pajuçara",
+          "nivel": "high",
+          "prioridade": 3,
+          "propria_banho": false,
+          "score": 0.6267,
+          "classificacao": "Regular",
+          "emoji": "🟠",
+          "mensagem_publica": "🟠 Qualidade regular. Evite contato prolongado com a água.",
+          "tendencia": "Tendência nos próximos dias: piorando.",
+          "parametros_criticos": [
+            "Coliformes acima do limite (1477 NMP/100mL)",
+            "Turbidez elevada (41.0 NTU)",
+            "Óleo/graxas detectado (0.812 mg/L)"
+          ],
+          "timestamp": "2026-05-26T15:32:59.224872",
+          "canais_acionados": [
+            "dashboard",
+            "push",
+            "email"
+          ]
+        },
+        {
+          "praia_id": "ponta_verde",
+          "nome": "Ponta Verde",
+          "nivel": "high",
+          "prioridade": 3,
+          "propria_banho": false,
+          "score": 0.6206,
+          "classificacao": "Regular",
+          "emoji": "🟠",
+          "mensagem_publica": "🟠 Qualidade regular. Evite contato prolongado com a água.",
+          "tendencia": "Tendência nos próximos dias: piorando.",
+          "parametros_criticos": [
+            "Coliformes acima do limite (975 NMP/100mL)",
+            "Óleo/graxas detectado (0.916 mg/L)"
+          ],
+          "timestamp": "2026-05-26T15:32:59.225872",
+          "canais_acionados": [
+            "dashboard",
+            "push",
+            "email"
+          ]
+        }
+      ],
+      "ranking": [
+        {
+          "posicao": 1,
+          "praia_id": "jatiuca",
+          "nome": "Jatiúca",
+          "score": 0.3933,
+          "classificacao": "Boa"
+        },
+        {
+          "posicao": 2,
+          "praia_id": "sereia",
+          "nome": "Praia da Sereia",
+          "score": 0.3984,
+          "classificacao": "Boa"
+        },
+        {
+          "posicao": 3,
+          "praia_id": "cruz_das_almas",
+          "nome": "Cruz das Almas",
+          "score": 0.4486,
+          "classificacao": "Boa"
+        },
+        {
+          "posicao": 4,
+          "praia_id": "ponta_verde",
+          "nome": "Ponta Verde",
+          "score": 0.6206,
+          "classificacao": "Regular"
+        },
+        {
+          "posicao": 5,
+          "praia_id": "pajucara",
+          "nome": "Pajuçara",
+          "score": 0.6267,
+          "classificacao": "Regular"
+        }
+      ],
+      "nota_tecnica": "Avaliação baseada no padrão CONAMA 274/2000. Amostras coletadas por sensores IoT e análises laboratoriais. Atualizações às 6h e 14h."
+    },
+    "log": [
+      {
+        "praia": "Pajuçara",
+        "nivel": "high",
+        "canais": [
+          "dashboard",
+          "push",
+          "email"
+        ],
+        "enviado": true,
+        "timestamp": "2026-05-26T15:32:59.225872"
+      },
+      {
+        "praia": "Ponta Verde",
+        "nivel": "high",
+        "canais": [
+          "dashboard",
+          "push",
+          "email"
+        ],
+        "enviado": true,
+        "timestamp": "2026-05-26T15:32:59.225872"
+      },
+      {
+        "praia": "Jatiúca",
+        "nivel": "medium",
+        "canais": [
+          "dashboard",
+          "push"
+        ],
+        "enviado": true,
+        "timestamp": "2026-05-26T15:32:59.225872"
+      },
+      {
+        "praia": "Cruz das Almas",
+        "nivel": "medium",
+        "canais": [
+          "dashboard",
+          "push"
+        ],
+        "enviado": true,
+        "timestamp": "2026-05-26T15:32:59.225872"
+      },
+      {
+        "praia": "Praia da Sereia",
+        "nivel": "medium",
+        "canais": [
+          "dashboard",
+          "push"
+        ],
+        "enviado": true,
+        "timestamp": "2026-05-26T15:32:59.225872"
+      }
+    ],
+    "gerado_em": "2026-05-26T15:32:59.225872"
+  }
+}

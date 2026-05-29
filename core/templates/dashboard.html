@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="dashboard-layout">
+    <!-- Lado Esquerdo: Preview do Relatório -->
+    <div class="preview-panel">
+        <div class="panel-header">
+            <div class="header-title">
+                <i class="fa-solid fa-file-invoice"></i> Relatório de Análise
+            </div>
+            <div class="header-actions">
+                <button class="btn btn-icon" id="btn-refresh-report" title="Atualizar">
+                    <i class="fa-solid fa-rotate-right"></i>
+                </button>
+                <button class="btn btn-icon" id="btn-download-report" title="Baixar PDF">
+                    <i class="fa-solid fa-download"></i>
+                </button>
+            </div>
+        </div>
+        <div class="iframe-container">
+            <!-- Iframe para isolar o CSS do relatório -->
+            <iframe id="report-iframe" src="" frameborder="0" style="display: none;"></iframe>
+            <div id="empty-state" class="empty-state">
+                <div class="empty-state-icon">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3>Nenhum relatório gerado</h3>
+                <p>Faça o upload de um arquivo JSON pelo chat para gerar uma análise.</p>
+            </div>
+            <div id="loading-state" class="loading-state" style="display: none;">
+                <div class="spinner"></div>
+                <p>Analisando dados e gerando relatório...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lado Direito: Chat da MarIA -->
+    <div class="chat-panel">
+        <div class="panel-header">
+            <div class="header-title">
+                <div class="avatar-maria">M</div>
+                <div>
+                    <strong>MarIA</strong>
+                    <div class="status-online"><span class="dot"></span> Online</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <!-- Welcome message -->
+            <div class="message assistant">
+                <div class="message-content">
+                    Olá! Sou a MarIA, sua assistente de monitoramento de resíduos marinhos. 🌊<br><br>
+                    Você pode me fazer perguntas sobre a qualidade das praias ou <strong>enviar um arquivo JSON</strong> com os dados dos sensores para eu gerar um relatório completo de análise ambiental.
+                </div>
+                <div class="message-time">Agora</div>
+            </div>
+        </div>
+
+        <div class="chat-input-area">
+            <!-- Preview do arquivo selecionado -->
+            <div id="file-preview" class="file-preview" style="display: none;">
+                <i class="fa-solid fa-file-code"></i>
+                <span id="file-name">dados.json</span>
+                <button id="remove-file"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            
+            <form id="chat-form" class="chat-form">
+                {% csrf_token %}
+                <div class="input-wrapper">
+                    <label for="file-upload" class="btn-upload" title="Anexar JSON">
+                        <i class="fa-solid fa-paperclip"></i>
+                    </label>
+                    <input type="file" id="file-upload" accept=".json" style="display: none;">
+                    
+                    <textarea id="chat-input" placeholder="Digite sua mensagem ou envie um JSON..." rows="1"></textarea>
+                    
+                    <button type="submit" class="btn-send" id="btn-send">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/chat.js"></script>
+{% endblock %}

@@ -1,0 +1,197 @@
+{
+  "pajucara": {
+    "praia_id": "pajucara",
+    "nome": "Pajuçara",
+    "tipo": "urbana",
+    "timestamp": "2026-05-26T15:32:59.219387",
+    "localizacao": {
+      "lat": -9.6658,
+      "lon": -35.735
+    },
+    "agua": {
+      "coliformes_fecais": 1477.0,
+      "ph": 7.13,
+      "turbidez": 41.0,
+      "oleo_graxas": 0.812,
+      "temperatura": 30.5,
+      "salinidade": 32.5,
+      "oxigenio_dissolvido": 6.69
+    },
+    "clima": {
+      "temperatura_ar": 24.3,
+      "umidade": 67.7,
+      "vento_kmh": 20.2,
+      "direcao_vento": "NE",
+      "precipitacao_mm": 16.8,
+      "altura_ondas_m": 1.88,
+      "visibilidade_km": 15.5
+    },
+    "residuos": {
+      "plasticos_por_100m2": 4.8,
+      "bitucas_por_100m2": 2.5,
+      "vidros_por_100m2": 1.8,
+      "esgoto_visivel": false
+    },
+    "ocupacao": {
+      "banhistas_estimados": 1138,
+      "capacidade_maxima": 5000,
+      "percentual": 22.8
+    }
+  },
+  "ponta_verde": {
+    "praia_id": "ponta_verde",
+    "nome": "Ponta Verde",
+    "tipo": "urbana",
+    "timestamp": "2026-05-26T15:32:59.219387",
+    "localizacao": {
+      "lat": -9.6602,
+      "lon": -35.7239
+    },
+    "agua": {
+      "coliformes_fecais": 974.9,
+      "ph": 7.22,
+      "turbidez": 13.4,
+      "oleo_graxas": 0.916,
+      "temperatura": 26.5,
+      "salinidade": 34.3,
+      "oxigenio_dissolvido": 6.44
+    },
+    "clima": {
+      "temperatura_ar": 27.4,
+      "umidade": 69.3,
+      "vento_kmh": 6.3,
+      "direcao_vento": "S",
+      "precipitacao_mm": 16.1,
+      "altura_ondas_m": 2.44,
+      "visibilidade_km": 10.7
+    },
+    "residuos": {
+      "plasticos_por_100m2": 8.8,
+      "bitucas_por_100m2": 4.9,
+      "vidros_por_100m2": 2.4,
+      "esgoto_visivel": false
+    },
+    "ocupacao": {
+      "banhistas_estimados": 2654,
+      "capacidade_maxima": 4000,
+      "percentual": 66.3
+    }
+  },
+  "jatiuca": {
+    "praia_id": "jatiuca",
+    "nome": "Jatiúca",
+    "tipo": "urbana",
+    "timestamp": "2026-05-26T15:32:59.219387",
+    "localizacao": {
+      "lat": -9.6462,
+      "lon": -35.7145
+    },
+    "agua": {
+      "coliformes_fecais": 194.0,
+      "ph": 6.92,
+      "turbidez": 14.3,
+      "oleo_graxas": 0.121,
+      "temperatura": 27.4,
+      "salinidade": 35.8,
+      "oxigenio_dissolvido": 6.46
+    },
+    "clima": {
+      "temperatura_ar": 27.7,
+      "umidade": 67.3,
+      "vento_kmh": 13.0,
+      "direcao_vento": "NE",
+      "precipitacao_mm": 18.3,
+      "altura_ondas_m": 0.68,
+      "visibilidade_km": 15.9
+    },
+    "residuos": {
+      "plasticos_por_100m2": 1.7,
+      "bitucas_por_100m2": 1.9,
+      "vidros_por_100m2": 0.6,
+      "esgoto_visivel": false
+    },
+    "ocupacao": {
+      "banhistas_estimados": 3886,
+      "capacidade_maxima": 6000,
+      "percentual": 64.8
+    }
+  },
+  "cruz_das_almas": {
+    "praia_id": "cruz_das_almas",
+    "nome": "Cruz das Almas",
+    "tipo": "semiurbana",
+    "timestamp": "2026-05-26T15:32:59.219387",
+    "localizacao": {
+      "lat": -9.6103,
+      "lon": -35.7019
+    },
+    "agua": {
+      "coliformes_fecais": 1084.8,
+      "ph": 7.96,
+      "turbidez": 14.1,
+      "oleo_graxas": 0.039,
+      "temperatura": 27.6,
+      "salinidade": 33.6,
+      "oxigenio_dissolvido": 5.84
+    },
+    "clima": {
+      "temperatura_ar": 33.4,
+      "umidade": 90.7,
+      "vento_kmh": 14.4,
+      "direcao_vento": "S",
+      "precipitacao_mm": 11.9,
+      "altura_ondas_m": 2.31,
+      "visibilidade_km": 11.9
+    },
+    "residuos": {
+      "plasticos_por_100m2": 1.6,
+      "bitucas_por_100m2": 1.5,
+      "vidros_por_100m2": 0.4,
+      "esgoto_visivel": false
+    },
+    "ocupacao": {
+      "banhistas_estimados": 2454,
+      "capacidade_maxima": 3000,
+      "percentual": 81.8
+    }
+  },
+  "sereia": {
+    "praia_id": "sereia",
+    "nome": "Praia da Sereia",
+    "tipo": "semiurbana",
+    "timestamp": "2026-05-26T15:32:59.219387",
+    "localizacao": {
+      "lat": -9.5891,
+      "lon": -35.6928
+    },
+    "agua": {
+      "coliformes_fecais": 562.4,
+      "ph": 7.56,
+      "turbidez": 6.8,
+      "oleo_graxas": 0.057,
+      "temperatura": 26.5,
+      "salinidade": 35.8,
+      "oxigenio_dissolvido": 8.17
+    },
+    "clima": {
+      "temperatura_ar": 28.2,
+      "umidade": 62.2,
+      "vento_kmh": 16.4,
+      "direcao_vento": "S",
+      "precipitacao_mm": 15.9,
+      "altura_ondas_m": 2.44,
+      "visibilidade_km": 17.9
+    },
+    "residuos": {
+      "plasticos_por_100m2": 0.1,
+      "bitucas_por_100m2": 0.1,
+      "vidros_por_100m2": 0.0,
+      "esgoto_visivel": true
+    },
+    "ocupacao": {
+      "banhistas_estimados": 1531,
+      "capacidade_maxima": 2500,
+      "percentual": 61.2
+    }
+  }
+}

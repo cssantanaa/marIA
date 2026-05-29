@@ -1,0 +1,34 @@
+[
+  {
+    "id_registro": "REG-2026-9901",
+    "data_coleta": "2026-05-29T10:14:22Z",
+    "sensor_origem": "   Drone_Costeiro_02   ",
+    "localizacao": {
+      "regiao": "Nordeste",
+      "coordenadas_aproximadas": "-9.6658, -35.7050"
+    },
+    "dados_avistamento": {
+      "categoria_residuo": "PLÁSTICO_RIGIDO",
+      "tipo_item": "garrafa_pet_2l",
+      "estado_conservacao": "INTEIRO",
+      "descricao_visual": "Uma garrafa plástica transparente flutuando perto da linha de surfe. Contém algas presas à superfície, sugerindo que está na água há alguns dias. Apresenta rótulo parcialmente legível."
+    },
+    "impacto_imediato": "baixo"
+  },
+  {
+    "id_registro": "REG-2026-9902",
+    "data_coleta": "2026-05-29T11:22:15Z",
+    "sensor_origem": "Drone_Costeiro_02",
+    "localizacao": {
+      "regiao": "Nordeste",
+      "coordenadas_aproximadas": "-9.6602, -35.7239"
+    },
+    "dados_avistamento": {
+      "categoria_residuo": "REDE_DE_PESCA",
+      "tipo_item": "fragmento_nylon",
+      "estado_conservacao": "DEGRADADO",
+      "descricao_visual": "Fragmento de rede de pesca enroscado em corais rasos. Risco iminente para a fauna marinha local."
+    },
+    "impacto_imediato": "critico"
+  }
+]
